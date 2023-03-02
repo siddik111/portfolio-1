@@ -1,0 +1,509 @@
+@media (min-width: 768px) and (max-width: 991px) { 
+
+    .navbar-nav {
+        padding-left: 0px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    #main_menu .nav-item a {
+        font-size: 16px;
+        padding: 5px 15px;
+    }
+    #main_menu .nav-item a:hover {
+        background: #000;
+    }
+    #banner .banner_left h1 {
+        font-size: 30px;
+        
+    }
+    #banner .banner_left h3 {
+        font-size: 22px;
+    }
+    #banner .banner_left {
+        padding: 0px 0px 15px 8px;
+    }
+    #banner .banner_right {
+        width: 250px;
+        height: 300px;
+    }
+    #banner .banner_left p{
+        padding-right: 400px;
+    }
+    .btn {
+        font-size: 10px;
+        margin-top: 20px;
+        padding: 10px 15px;
+    }
+    #banner .banner_main{
+        position: relative;
+    }
+    #banner .banner_right {
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(0% ,0%);
+    }
+
+
+    /* about part */
+    #about {
+        position: relative;
+        padding-top: 128px;
+        padding-bottom: 50px;
+    }
+    #about .about_l{
+        width: 270px;
+        height: 300px;
+    }
+    #about .about_l img{
+        width: 100%;
+        height: 100%;
+    }
+    #about .about_r {
+        position: absolute;
+        top: 0;
+        right: 35%;
+        transform: translate(55% ,0);
+    }
+    #about .about_r h3 {
+        font-size: 30px;
+    }
+    .tittle h3 {
+        font-size: 30px;
+    }
+    .tittle p {
+        padding: 20px 55px;
+    }
+
+    #service .srv_count {
+        padding: 35px 0px;
+        margin: 70px 0;
+    }
+    #service .srv_count .item{
+        margin-top: 40px;
+    }
+
+
+
+    #portfolio .portfolio_btn ul li {
+        font-size: 18px;
+        margin: 0 15px;
+        padding: 15px 20px;
+    }
+    #portfolio .portfolio_btn {
+        margin-top: 40px;
+    }
+    .content .item {
+        margin-top: 60px;
+        height: 200px;
+    }
+
+
+    #feedback .tittle {
+        padding-bottom: 30px;
+    }
+    #feedback .img_s {
+        margin-top: 30px;
+        width: 80px;
+    }
+
+
+
+    #price_area .item {
+        margin-bottom: 50px;
+        border-radius: 35px;
+    }
+    #price_area .item:hover {
+        padding: 0px 0;
+    }
+    #price_area {
+        padding: 0px 0 0px 0;
+    }
+    #price_area .tittle {
+        padding: 10px 0;
+        margin-top: -50px;
+    }
+    #price_area .list_area ul li {
+        padding: 5px 0;
+        font-size: 15px;
+        text-align: center;
+    }
+    #price_area h3 {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    #price_area .buy_area::after {
+        content: 'BUY NOW';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50% ,-50%);
+        background-color: #F9F9FF;
+        color: #222;
+        font-size: 20px;
+        padding: 15px 16px;
+    }
+    #price_area .top_area {
+        padding-top: 20px;
+    }
+
+
+    #brands_area .main_brand .img img {
+        width: 100px;
+    }
+
+
+    #futer input {
+        width: 175px;
+        height: 43px;
+    }
+    #futer .send_button {
+        transform: translate(55% ,24%);
+        padding: 8px 8px;
+    }
+    #futer {
+        padding: 50px 0;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 768px) { 
+
+    #banner .banner_right {
+        display: none;
+    }
+    #banner .banner_left h1 {
+        font-size: 45px;
+    }
+    #banner .banner_left {
+        padding-top: 5px;
+    }
+
+
+    /* about */
+    #about {
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #about .about_l{
+        width: 300px;
+        height: 300px;
+        position: relative;
+
+    }
+    #about .about_l img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-15% ,-55%);
+    }
+    #about .about_r {
+        text-align: center;
+        padding-top: 0;
+        margin-left: 0;
+    }
+    .btn {
+        font-size: 10px;
+        padding: 10px 20px;
+    }
+    #about .about_r h3 {
+        font-size: 28px;
+    }
+    .tittle h3 {
+        font-size: 28px;
+    }
+    .tittle p {
+        padding: 20px 10px;
+    }
+    #service .item span {
+        padding: 6px 0 50px 0;
+    }
+    #service .text p {
+        padding: 5px 50px;
+    }
+    #service .srv_count {
+        padding: 35px 0px 0px 0px;
+        margin: 45px 0;
+    }
+    #portfolio .portfolio_btn ul li {
+        font-size: 16px;
+        margin: 0px 5px;
+        padding: 10px 15px;
+    }
+    #portfolio .portfolio_btn {
+        margin-top: 20px;
+        padding-bottom: 0px;
+        margin-left: -20px;
+    }
+    .content .item {
+        width: 30%;
+        margin-top: 80px;
+        height: 200px;
+    }
+    .text h4 {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+
+    #feedback .tittle {
+        padding-bottom: 30px;
+    }
+    #feedback .img_s {
+        margin-top: 30px;
+        width: 80px;
+    }
+
+    #price_area .tittle {
+        padding: 0px 0;
+    }
+    #price_area h3 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #price_area .package_no {
+        width: 30px;
+        height: 60px;
+    }
+    #price_area p {
+        padding: 15px 105px;
+    }
+    #price_area .buy_area::after {
+        font-size: 15px;
+        padding: 15px 16px;
+    }
+
+
+    #blog .item .img .img1 {
+        width: 600px;
+        height: 200px;
+    }
+    #blog .item:hover .img .img1 {
+        width: 620px;
+    }
+    #blog .color_h5 {
+        padding: 20px 0 15px 0;
+        font-size: 21px;
+    }
+    #blog .dtls h5 {
+        margin-right: 150px;
+    }
+    #blog .dtls span:hover{
+        color: #65BAFC;
+        transition: 0.4s;
+    }
+    #brands_area .main_brand .img img {
+        width: 80px;
+    }
+
+    #futer .send_button {
+        transform: translate(-105% ,15%);
+
+    }
+
+
+
+}
+@media (min-width: 275px) and (max-width: 576px) { 
+    body {
+        font-size: 12px;
+    }
+    #banner {
+        padding-top: 5px;
+    }
+    .btn {
+        font-size: 8px;
+        padding: 10px 11px;
+    }
+    #banner .banner_right {
+        display: none;
+    }
+    #banner .banner_left h1 {
+        font-size: 20px;
+    }
+    #banner .banner_left h3 {
+        font-size: 16px;
+    }
+    #banner .banner_left {
+        padding-top: 5px;
+    }
+
+
+    /* about */
+    #about {
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #about .about_l {
+        width: 250px;
+        height: 200px;
+        position: relative;
+    }
+    #about .about_l img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-45% ,-55%);
+    }
+    #about .about_r {
+        text-align: center;
+        padding-top: 0;
+        margin-left: 0;
+    }
+    .btn {
+        font-size: 8px;
+        padding: 10px 10px;
+    }
+    #about .about_r h6 {
+        font-size: 12px;
+        text-align: left;
+    }
+    #about .about_r h3 {
+        padding: 5px 0;
+        font-size: 18px;
+        text-align: left;
+    }
+    #about .about_r p {
+        text-align: left;
+    }
+    .tittle h3 {
+        font-size: 17px;
+    }
+    .tittle p {
+        padding: 10px 0px;
+    }
+    #service .item span {
+        font-size: 12px;
+        padding: 6px 0 25px 0;
+    }
+    #service .text p {
+        padding: 5px 15px;
+    }
+    #service .item h4 {
+        font-size: 30px;
+    }
+    #service .srv_count {
+        padding: 35px 0px 0px 0px;
+        margin: 45px 0;
+    }
+    #portfolio .portfolio_btn ul li {
+        font-size: 10px;
+        margin: 0px 3px;
+        padding: 10px 6px;
+    }
+    #portfolio .portfolio_btn {
+        margin-top: 20px;
+        padding-bottom: 0px;
+        margin-left: -20px;
+    }
+    .content .item {
+        width: 30%;
+        margin-top: 40px;
+        height: 150px;
+    }
+    .text h4 {
+        font-size: 8px;
+        padding: 10px 0;
+    }
+    #portfolio .text p {
+        font-size: 8px;
+        margin-top: -13px;
+    }
+
+
+    #feedback {
+        padding: 0px 0;
+    }
+    #feedback .tittle {
+        padding-bottom: 30px;
+    }
+    #feedback .img_s {
+        margin-top: 30px;
+        width: 80px;
+    }
+
+    #price_area .tittle {
+        padding: 0px 0;
+    }
+    #price_area h3 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 16px;
+    }
+    #price_area .list_area ul li {
+        padding: 5px 0;
+        font-size: 12px;
+    }
+    #price_area .package_no {
+        width: 30px;
+        height: 60px;
+    }
+    #price_area p {
+        padding: 5px 15px;
+        text-align: center;
+    }
+    #price_area .buy_area h5 {
+        font-size: 21px;
+        padding-bottom: 45px;
+    }
+    #price_area .buy_area::after {
+        font-size: 14px;
+        padding: 10px 12px;
+        transform: translate(-50% ,-85%);
+    }
+    #price_area {
+        padding: 70px 0 0 0;
+    }
+
+
+    #blog .item .img .img1 {
+        width: 600px;
+        height: 200px;
+    }
+    #blog .item:hover .img .img1 {
+        width: 620px;
+    }
+    #blog .color_h5 {
+        padding: 20px 0 15px 0;
+        font-size: 21px;
+    }
+    #blog .dtls h5 {
+        margin-right: 50px;
+    }
+    #blog .dtls span:hover{
+        color: #65BAFC;
+        transition: 0.4s;
+    }
+    #brands_area .main_brand .img img {
+        width: 55px;
+    }
+    #brands_area .main_brand {
+        padding: 30px 0;
+    }
+    #blog {
+        padding: 60px 0;
+    }
+
+    
+    #futer {
+        padding: 50px 0;
+    }
+    #futer input {
+        width: 180px;
+        height: 35px;
+    }
+    #futer .send_button {
+        transform: translate(-50% ,25%);
+        padding: 7px 8px;
+    }
+
+
+
+}
